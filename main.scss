@@ -1,0 +1,122 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 20px;
+  }
+
+.container {
+    margin-top: 200px;
+}
+
+    .content-right {
+        display: inline-block;
+        width: 70%;
+        float: right;
+        margin-left: 30%;
+    }
+    
+    .content-left {
+        display: inline-block;
+        width: 70%;
+        float: left;
+    }
+
+        .title {
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+
+        .box {
+            border: 1px solid black;
+            padding: 10px 30px 10px 30px;
+            word-break: normal;
+            // background-color: rgb(241, 197, 235);
+            // color: black;
+            background-color: rgb(228, 171, 228);
+            color: white;
+        }
+
+        .green {
+            background-color: rgb(51, 247, 155);
+        }
+
+b {
+    margin-bottom: 15px;
+}
+
+.news-board {
+    margin-left: 15%;
+    margin-right: calc(15% - 20px);
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-column-gap: 5px;
+}
+
+.fashion {
+    display: inline;
+    width: 95%;
+}
+
+.image {
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.date {
+    margin-top: 20px;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.record {
+    margin-top: 5px;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+}
+
+
+
+// @media (min-width:576px) {
+//     .grid {
+//         grid-template-columns: 1fr;
+    
+//         // .content-right {
+//         //     width: 100%;
+//         // }
+// }
+
+// @media (min-width:768px) {
+//     .grid {
+//         grid-template-columns: 1fr;
+
+//     // .column {
+//     //     margin-left: 10px;
+//     // }
+// }
+
+// // @media (min-width:992px) {
+// //     .grid {
+// //         grid-template-columns: repeat(2, 50%);
+// //     }
+
+// //     .right {
+// //         margin-left: 200px;
+// //     }
+// // }
+    
+
+// // }
+// // @media (min-width:1200px) {
+// //     .card-item {
+// //         width: 33%;
+// //     }
+// // }
+
