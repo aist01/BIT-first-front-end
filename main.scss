@@ -10,14 +10,14 @@
 
     .content-right {
         display: inline-block;
-        width: 70%;
+        width: calc(80% - 20px);
         float: right;
-        margin-left: 30%;
+        margin-left: 20%;
     }
     
     .content-left {
         display: inline-block;
-        width: 70%;
+        width: 80%;
         float: left;
     }
 
@@ -47,8 +47,8 @@ b {
 }
 
 .news-board {
-    margin-left: 15%;
-    margin-right: calc(15% - 20px);
+    margin-left: 10%;
+    margin-right: calc(10% - 20px);
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(4, 25%);
@@ -87,7 +87,6 @@ b {
     width: 100%;
     margin-top: 60px;
     position: relative;
-    
 }
 
 .tea {
@@ -99,9 +98,9 @@ b {
 .text {
     position: absolute;
     text-align: center;
-    width: 70%;
+    width: 80%;
     top: 120px;
-    right: 15%;
+    right: 10%;
     color: white;
     
 }
@@ -117,8 +116,8 @@ b {
     font-size: 36px;
     line-height: 60px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 500;
-    
+    font-weight: 600;
+    letter-spacing: 4px;
     margin-bottom: 40px;
 }
 
