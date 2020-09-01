@@ -2,7 +2,7 @@
 
 const data = [
     {
-        image: 'boys.jpg',
+        image: 'lt.jpg',
         date:'Aug 31, 2020',
         record: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nostrum deserunt cumque a.'
     },
@@ -17,7 +17,7 @@ const data = [
         record: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nostrum deserunt cumque a.'
     },
     {
-        image: 'fashion.jpg',
+        image: 'men2.jpg',
         date:'Sept 3, 2020',
         record: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab nostrum deserunt cumque a.'
     }
