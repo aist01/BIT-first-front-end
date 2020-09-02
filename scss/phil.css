@@ -17,6 +17,7 @@
 
 .title {
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .descr {
@@ -31,8 +32,8 @@
 }
 
 img {
-  width: 300px;
-  height: 300px;
+  width: 370px;
+  height: 370px;
   -o-object-fit: cover;
      object-fit: cover;
   border: 1px solid;
@@ -43,10 +44,10 @@ img {
   display: grid;
   -ms-grid-columns: (50%)[2];
       grid-template-columns: repeat(2, 50%);
-  grid-column-gap: 40px;
+  grid-column-gap: 80px;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .img-second {
@@ -54,24 +55,27 @@ img {
   display: grid;
   -ms-grid-columns: (50%)[2];
       grid-template-columns: repeat(2, 50%);
-  grid-column-gap: 40px;
+  grid-column-gap: 80px;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .title-v {
   text-align: center;
+  margin-left: 70px;
+  font-weight: 700;
 }
 
-#myImg {
+/* Style the Image Used to Trigger the Modal */
+.myImg {
   border-radius: 5px;
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-#myImg:hover {
+.myImg:hover {
   opacity: 0.7;
 }
 
@@ -83,7 +87,7 @@ img {
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
-  padding-top: 100px;
+  padding-top: 50px;
   /* Location of the box */
   left: 0;
   top: 0;
@@ -99,15 +103,17 @@ img {
   /* Black w/ opacity */
 }
 
-/* Modal Content (image) */
+/* Modal Content (Image) */
 .modal-content {
   margin: auto;
+  margin-top: 50px;
   display: block;
   width: 80%;
-  max-width: 700px;
+  max-width: 550px;
+  height: auto;
 }
 
-/* Caption of Modal Image */
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
 #caption {
   margin: auto;
   display: block;
@@ -119,29 +125,27 @@ img {
   height: 150px;
 }
 
-/* Add Animation */
+/* Add Animation - Zoom in the Modal */
 .modal-content, #caption {
   -webkit-animation-name: zoom;
-          animation-name: zoom;
   -webkit-animation-duration: 0.6s;
-          animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
 }
 
 @-webkit-keyframes zoom {
   from {
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
+    -webkit-transform: scale(0);
   }
   to {
     -webkit-transform: scale(1);
-            transform: scale(1);
   }
 }
 
 @keyframes zoom {
   from {
-    -webkit-transform: scale(0.1);
-            transform: scale(0.1);
+    -webkit-transform: scale(0);
+            transform: scale(0);
   }
   to {
     -webkit-transform: scale(1);
