@@ -31,6 +31,10 @@
                 <!-- foreach + kintamojo vardas is Migles/Justinos-->
                 <div>
                     <?php include('nav.php'); ?>
+                    <?php include('nav.php'); ?>
+                    <?php include('nav.php'); ?>
+                    <?php include('nav.php'); ?>
+                    
                     <b>Data:</b> 2020.08.27<br>
                     <b>Įvykis:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, dolores temporibus quaerat iure dolorem laborum!
                 </div>
