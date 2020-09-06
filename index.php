@@ -26,6 +26,7 @@
 <div id="test"></div>
 <script type="text/javascript" src="js/test.js"></script>
 <?php include('nav.php'); ?>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <div class="container grid">
     <div class="content-right">
         <div class="title">Šiandienos įvykiai</div>

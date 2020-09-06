@@ -2,9 +2,9 @@
     <img class="logo" src="img/logo.png" alt="logo">
     <div class="menu-right">
         <div class="socials">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>      
         <nav>
             <a href="#">Naujienos</a>
