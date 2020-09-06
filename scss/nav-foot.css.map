@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CACtB;;AAED,AAAA,OAAO,CAAC,QAAQ,CAAC;EACb,KAAK,EAAE,IAAI;EAEX,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "nav-foot.scss"
+    ],
+    "names": [],
+    "file": "nav-foot.css"
+}

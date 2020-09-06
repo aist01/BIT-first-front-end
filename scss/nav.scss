@@ -16,21 +16,21 @@
     width: 72%;
     float: right;
     margin-top: 40px;
-    margin-right: 4%;
+    margin-right: 2%;
 }
 
 .socials {
     display: inline;
     float: right;
     margin-bottom: 10px;
-    margin-right: 18px;
+    margin-right: 6%;
     // position: absolute;
     // top: 50px;
     // right: -480%;
 }
 
 .socials i {
-    margin-left: 8px;
+    margin-right: 8px;
 }
 
 nav {
@@ -44,8 +44,11 @@ nav a {
     margin-left: 30px;
     font-weight: 600;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
 }
 
 .socials a {
     color: black;
+    font-size: 18px;
+    // margin-right: 2%;
 }

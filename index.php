@@ -8,6 +8,7 @@
     <!-- <link rel="stylesheet" href="layout.css"> -->
     <link rel="stylesheet" href="scss/main.css">
     <link rel="stylesheet" href="scss/nav.css">
+    <link rel="stylesheet" href="scss/nav-foot.css">
     <link rel="stylesheet" href="scss/font-awesome.min.css">
     <link rel="stylesheet" href="slick/slick.css"/>
     <link rel="stylesheet" href="slick/slick-theme.css"/>
@@ -78,6 +79,7 @@
         <div class="read-more">READ MORE</div>
     </div>
 </div>
+<?php include('nav-foot.php'); ?>
 
 <script type="text/javascript">
     $(document).ready(function(){
